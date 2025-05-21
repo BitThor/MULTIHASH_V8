@@ -13,8 +13,6 @@
 
 •       Para ejecutar la herramienta se emplea el comando: bash MultihashV8 y listo, ya podrás ingresar a la ruta en donde se encuentra el archivo o el directorio al cual quieres calcular el Hash. ( Ejemplo de ruta: /home/Kali/Documents/Archivo.txt ).
 
-![Texto alternativo](imagenes/Fotograma-1 (1))
-
       #   Ejemplo de salida
 
 
