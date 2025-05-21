@@ -27,9 +27,15 @@
 
      # Opciones a selección
 
+![Resultado del calculo](https://github.com/user-attachments/assets/f5c8de2b-777c-4c18-95c5-7e585c11bfd3)
+
 1)	Cambiar archivo o directorio: Aca podrás indicar la ruta en la que se encuentra el archivo a calcular, esta opción abarca files específicos como rutas de directorio. (Ejemplo: /home/Kali/Documents/Archivo.txt como /home/Kali/Documents), este último calculara los hashes de todos los archivos que estén dentro del directorio.
 
 2)	 Calcular haches: En esta opción, podrás calcular nuevamente el mismo archivo o directorio en la ruta especificada.
+
+![Calculando Hashes de todos los archivos)](https://github.com/user-attachments/assets/0f7692c1-7860-4420-8042-99d0fc29708d)
+
+![Resultados deseados](https://github.com/user-attachments/assets/0ad39498-0e79-4313-8c9d-5863bcb20c83)
 
 3)	Validar hash manualmente: Aquí puedes ingresar el algoritmo hash solo escribiéndolo, (Nota: Debido a la cantidad enorme de caracteres que integra un hash sha-512 o sha-256 puede resulta tediosos el proceso, por lo que se debe emplear solo es ocasiones que realmente lo requiera).
 
@@ -38,6 +44,12 @@
 5)	Exportar los resultados: Esta función generara 3 reportes en diferentes formatos .txt - .log - .json, estos documentos se descargarán cuando el proceso de cálculo finalice con el archivo ingresado. Se almacenarán automáticamente en la ruta /home/Kali/Downloads. 
 
 6)	Analizar metadatos de archivos: Con esta opción podrás analizar e identificar metadatos con soporte para múltiples formatos de archivos. Integrando la herramienta exiftool. Solo debes ingresar la ruta en donde se aloja el archivo por examinar.
+
+![Resultado de Exiftool](https://github.com/user-attachments/assets/e1bccf4d-253c-47c8-a31c-f6b1df6e2801)
+
+![Resultado con ImageMagick](https://github.com/user-attachments/assets/b4f86a5a-b8bc-4701-95be-48d7985669d6)
+
+![Resultado con Informacion basica](https://github.com/user-attachments/assets/dbee00c3-db67-4f6e-acfa-a4589a35f266)
 
 7)	Salir: Como indica el nombre, con esta opción podrás salir de la herramienta.
 
