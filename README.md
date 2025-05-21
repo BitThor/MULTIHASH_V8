@@ -43,6 +43,14 @@
 
 5)	Exportar los resultados: Esta función generara 3 reportes en diferentes formatos .txt - .log - .json, estos documentos se descargarán cuando el proceso de cálculo finalice con el archivo ingresado. Se almacenarán automáticamente en la ruta /home/Kali/Downloads. 
 
+![Reportes de Resultados](https://github.com/user-attachments/assets/2071ba39-60ca-4d59-812f-1c5164967d41)
+
+![Multihash_log.txt](https://github.com/user-attachments/assets/680d171b-4ae0-41a8-b22a-fbfa15bd76ae)
+
+![Multihash_report.json](https://github.com/user-attachments/assets/cfec922e-74f1-40a4-8661-30005cfce7ed)
+
+![Multihash_report.txt](https://github.com/user-attachments/assets/9cccec80-9e9c-4c37-82cf-3ce22d42927c)
+
 6)	Analizar metadatos de archivos: Con esta opción podrás analizar e identificar metadatos con soporte para múltiples formatos de archivos. Integrando la herramienta exiftool. Solo debes ingresar la ruta en donde se aloja el archivo por examinar.
 
 ![Resultado de Exiftool](https://github.com/user-attachments/assets/e1bccf4d-253c-47c8-a31c-f6b1df6e2801)
