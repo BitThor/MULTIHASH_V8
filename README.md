@@ -12,13 +12,12 @@
 
       #   Ejemplo de salida
 
-
-========= MultiHashV8 =========
-Archivo: prueba.txt
-MD5     : d41d8cd98f00b204e9800998ecf8427e
-SHA1    : da39a3ee5e6b4b0d3255bfef95601890afd80709
-SHA256  : e3b0c44298fc1c149afbf4c8996fb924...
-SHA512  : cf83e1357eefb8bdf1542850d66d8007...
+        ========= MultiHashV8 =========
+        Archivo: prueba.txt
+       MD5     : d41d8cd98f00b204e9800998ecf8427e
+       SHA1    : da39a3ee5e6b4b0d3255bfef95601890afd80709
+       SHA256  : e3b0c44298fc1c149afbf4c8996fb924...
+       SHA512  : cf83e1357eefb8bdf1542850d66d8007...
 
      # Opciones a selección
 
@@ -110,16 +109,14 @@ ________________________________________
 
 # Opción local (entorno de desarrollo o pruebas)
 
--	git clone https://github.com/BitThor/MULTIHASH_V8.git
-
--	cd MultiHashV8
-
--	chmod +x MultiHashV8
+            - git clone https://github.com/BitThor/MULTIHASH_V8.git
+            - cd MultiHashV8
+            - chmod +x MultiHashV8
 
 
 # Para su ejecución desde cualquier ruta (recomendada para su uso diario)
 
--	sudo mv MultiHashV8 /usr/local/bin/
+            - sudo mv MultiHashV8 /usr/local/bin/
 
 
 🤝 Contribuciones
@@ -137,3 +134,4 @@ III.	Pull request con tu propuesta de cambio.
 Desarrollado por [ Victor Cavada Hernández ].  
 Contacto: victorcavadah@gmail.com 
 Año: 2025
+
