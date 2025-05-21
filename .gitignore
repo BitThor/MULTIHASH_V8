@@ -1,0 +1,23 @@
+# Archivos temporales y backups
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de logs o resultados
+*.log
+*.out
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de ejecución
+*.exe
+*.class
+
+# Directorios ocultos de configuración
+.cache/
+.idea/
+.vscode/
