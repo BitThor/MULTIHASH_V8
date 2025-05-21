@@ -2,6 +2,9 @@
 
 •	MultiHashV8 es una herramienta de línea de comandos escrita en Bash, diseñada para la generación simultánea de múltiples hashes de archivos, incluyendo MD5, SHA1, SHA256 y SHA512 integrando un análisis de metadatos. Esta utilidad está dirigida a profesionales de ciberseguridad, administradores de sistemas, auditores forenses, y cualquier usuario que necesite verificar la integridad de archivos mediante funciones criptográficas hash.
 
+🎥 [Ver el video explicativo](https://www.youtube.com/watch?v=lJ9taLZ9CCE)
+
+
 # 📌 Descripción General
 
 •	MultiHashV8 permite analizar uno o varios  tipos de archivos al mismo tiempo, con un porcentaje dinámico de cálculo, indicándole la ruta precisa del file desde la misma herramienta, además de incorporar una función para el análisis de metadatos, utilizando  ‘exiftool’, de esta manera genera un resumen estructurado de sus huellas digitales. Este recurso cuenta con 7 funciones que podemos emplear. 
