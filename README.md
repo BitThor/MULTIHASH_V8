@@ -1,12 +1,12 @@
-🔐 MultiHash_V8
+# 🔐 MultiHash_V8
 
 •	MultiHashV8 es una herramienta de línea de comandos escrita en Bash, diseñada para la generación simultánea de múltiples hashes de archivos, incluyendo MD5, SHA1, SHA256 y SHA512 integrando un análisis de metadatos. Esta utilidad está dirigida a profesionales de ciberseguridad, administradores de sistemas, auditores forenses, y cualquier usuario que necesite verificar la integridad de archivos mediante funciones criptográficas hash.
 
-📌 Descripción General
+# 📌 Descripción General
 
 •	MultiHashV8 permite analizar uno o varios  tipos de archivos al mismo tiempo, con un porcentaje dinámico de cálculo, indicándole la ruta precisa del file desde la misma herramienta, además de incorporar una función para el análisis de metadatos, utilizando  ‘exiftool’, de esta manera genera un resumen estructurado de sus huellas digitales. Este recurso cuenta con 7 funciones que podemos emplear. 
 
-👨‍💻Modo de uso
+# 👨‍💻Modo de uso
 
 •       Para ejecutar la herramienta se emplea el comando: bash MultihashV8 y listo, ya podrás ingresar a la ruta en donde se encuentra el archivo o el directorio al cual quieres calcular el Hash. ( Ejemplo de ruta: /home/Kali/Documents/Archivo.txt ).
 
@@ -49,7 +49,7 @@
 
              - Extracción y análisis de metadatos
 
-📂 Funcionalidades
+# 📂 Funcionalidades
 
                - Soporte para múltiples archivos como parámetros.
                - Cálculo simultáneo de hashes con formato amigable.
@@ -60,7 +60,7 @@
 
 •       Esta herramienta fue desarrollada en código bash con objetivos de compatibilidad, portabilidad y simplicidad, previniendo dependencias adicionales fuera de las herramientas estándar presentes en la mayoría de las distribuciones GNU/Linux.
 
-🖥️ Requisitos Recomendados de Software
+# 🖥️ Requisitos Recomendados de Software
 
 •       Este script emplea diversos comandos en su desarrollo, por lo tanto, el sistema operativo (Kali Linux) debe tener instaladas las siguientes herramientas:
 
@@ -97,7 +97,7 @@
 
 ________________________________________
 
-💻 Requisitos Recomendados de Hardware
+# 💻 Requisitos Recomendados de Hardware
 
  •     Aunque el script no es intensivo en recursos, para un rendimiento fluido en grandes volúmenes de archivos:
 
@@ -107,7 +107,7 @@ ________________________________________
 •	Pantalla compatible con colores ANSI (la mayoría de las terminales modernas ya lo son)
 
 
-🚀 Instalación
+# 🚀 Instalación
 
 # Opción local (entorno de desarrollo o pruebas)
 
@@ -121,7 +121,7 @@ ________________________________________
             - sudo mv MultiHashV8 /usr/local/bin/
 
 
-🤝 Contribuciones
+# 🤝 Contribuciones
 
 •    Este proyecto es de código abierto y está disponible para su optimización y mejora. Puedes contribuir mediante:
 
@@ -131,7 +131,7 @@ II.	Creación de una rama de desarrollo.
 
 III.	Pull request con tu propuesta de cambio.
 
-👤 Autor
+# 👤 Autor
 
 Desarrollado por [ Victor Cavada Hernández ].  
 Contacto: victorcavadah@gmail.com 
