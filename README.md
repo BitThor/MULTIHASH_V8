@@ -4,7 +4,6 @@
 
 # 🎥 [Ver el video explicativo](https://www.youtube.com/watch?v=lJ9taLZ9CCE)
 
-
 # 📌 Descripción General
 
 •	MultiHashV8 permite analizar uno o varios  tipos de archivos al mismo tiempo, con un porcentaje dinámico de cálculo, indicándole la ruta precisa del file desde la misma herramienta, además de incorporar una función para el análisis de metadatos, utilizando  ‘exiftool’, de esta manera genera un resumen estructurado de sus huellas digitales. Este recurso cuenta con 7 funciones que podemos emplear. 
@@ -12,6 +11,8 @@
 # 👨‍💻Modo de uso
 
 •       Para ejecutar la herramienta se emplea el comando: bash MultihashV8 y listo, ya podrás ingresar a la ruta en donde se encuentra el archivo o el directorio al cual quieres calcular el Hash. ( Ejemplo de ruta: /home/Kali/Documents/Archivo.txt ).
+
+![Ejecucion de MultiHash_V8](https://github.com/user-attachments/assets/a871e7f5-d534-41a9-afdd-923aec171fb9)
 
       #   Ejemplo de salida
 
