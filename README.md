@@ -85,12 +85,12 @@ SHA512  : cf83e1357eefb8bdf1542850d66d8007...
 
 •     Puedes integrarlas todas en una con distribuciones basadas en Debian/Ubuntu:
 
-	Unix
+#	Unix
 
    - sudo apt update -y
    - sudo apt install coreutils findutils exiftool imagemagick -y
 
-	en Fedora/RHEL:
+#	en Fedora/RHEL:
 
    - sudo dnf install coreutils findutils perl-Image-ExifTool ImageMagick
 
@@ -98,7 +98,7 @@ ________________________________________
 
 💻 Requisitos Recomendados de Hardware
 
-# Aunque el script no es intensivo en recursos, para un rendimiento fluido en grandes volúmenes de archivos:
+ •     Aunque el script no es intensivo en recursos, para un rendimiento fluido en grandes volúmenes de archivos:
 
 •	CPU: 1 núcleo mínimo (2 núcleos recomendado)
 •	RAM: 1 GB mínimo (2 GB recomendado si analizas archivos grandes o muchos a la vez)
@@ -110,21 +110,21 @@ ________________________________________
 
 # Opción local (entorno de desarrollo o pruebas)
 
-	git clone https://github.com/BitThor/MULTIHASH_V8.git
+-	git clone https://github.com/BitThor/MULTIHASH_V8.git
 
-	cd MultiHashV8
+-	cd MultiHashV8
 
-	chmod +x MultiHashV8
+-	chmod +x MultiHashV8
 
 
-“ Para su ejecución desde cualquier ruta (recomendada para su uso diario)
+# Para su ejecución desde cualquier ruta (recomendada para su uso diario)
 
-	sudo mv MultiHashV8 /usr/local/bin/
+-	sudo mv MultiHashV8 /usr/local/bin/
 
 
 🤝 Contribuciones
 
-# Este proyecto es de código abierto y está disponible para su optimización y mejora. Puedes contribuir mediante:
+•    Este proyecto es de código abierto y está disponible para su optimización y mejora. Puedes contribuir mediante:
 
 I.	Fork del repositorio.
 
