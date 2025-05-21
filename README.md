@@ -8,9 +8,10 @@
 
 👨‍💻Modo de uso
 
-#  Para ejecutar la herramienta se emplea el comando: bash MultihashV8 y listo, ya podrás ingresar a la ruta en donde se encuentra el archivo o el directorio al cual quieres calcular el Hash. ( Ejemplo de ruta: /home/Kali/Documents/Archivo.txt ).
+•       Para ejecutar la herramienta se emplea el comando: bash MultihashV8 y listo, ya podrás ingresar a la ruta en donde se encuentra el archivo o el directorio al cual quieres calcular el Hash. ( Ejemplo de ruta: /home/Kali/Documents/Archivo.txt ).
 
-#   Ejemplo de salida
+      #   Ejemplo de salida
+
 
 ========= MultiHashV8 =========
 Archivo: prueba.txt
@@ -19,7 +20,7 @@ SHA1    : da39a3ee5e6b4b0d3255bfef95601890afd80709
 SHA256  : e3b0c44298fc1c149afbf4c8996fb924...
 SHA512  : cf83e1357eefb8bdf1542850d66d8007...
 
-# Opciones a selección
+     # Opciones a selección
 
 1)	Cambiar archivo o directorio: Aca podrás indicar la ruta en la que se encuentra el archivo a calcular, esta opción abarca files específicos como rutas de directorio. (Ejemplo: /home/Kali/Documents/Archivo.txt como /home/Kali/Documents), este último calculara los hashes de todos los archivos que estén dentro del directorio.
 
@@ -37,31 +38,30 @@ SHA512  : cf83e1357eefb8bdf1542850d66d8007...
 
 •	Esta capacidad resulta especialmente útil en tareas como:
 
-	Verificación de integridad tras transferencias de archivos.
+              - Verificación de integridad tras transferencias de archivos.
 
-	Calcular hash para múltiples formatos de archivos
+             - Calcular hash para múltiples formatos de archivos
 
-	Generación de firmas digitales.
+             - Generación de firmas digitales.
 
-	Comparación de hashes para detección de alteraciones.
+             - Comparación de hashes para detección de alteraciones.
 
-	Extracción y análisis de metadatos
+             - Extracción y análisis de metadatos
 
 📂 Funcionalidades
 
-        - Soporte para múltiples archivos como parámetros.
-        - Cálculo simultáneo de hashes con formato amigable.
-        - Validación de errores por archivo inexistente o sin permisos.
-        - ASCII Art de bienvenida incluido.
-        - Mensajes de advertencia y validación en tiempo real.
-        - Reconocimiento de metadatos.
+               - Soporte para múltiples archivos como parámetros.
+               - Cálculo simultáneo de hashes con formato amigable.
+               - Validación de errores por archivo inexistente o sin permisos.
+               - ASCII Art de bienvenida incluido.
+               - Mensajes de advertencia y validación en tiempo real.
+               - Reconocimiento de metadatos.
 
-
-# Esta herramienta fue desarrollada en código bash con objetivos de compatibilidad, portabilidad y simplicidad, previniendo dependencias adicionales fuera de las herramientas estándar presentes en la mayoría de las distribuciones GNU/Linux.
+•       Esta herramienta fue desarrollada en código bash con objetivos de compatibilidad, portabilidad y simplicidad, previniendo dependencias adicionales fuera de las herramientas estándar presentes en la mayoría de las distribuciones GNU/Linux.
 
 🖥️ Requisitos Recomendados de Software
 
-# Este script emplea diversos comandos en su desarrollo, por lo tanto, el sistema operativo (Kali Linux) debe tener instaladas las siguientes herramientas:
+•       Este script emplea diversos comandos en su desarrollo, por lo tanto, el sistema operativo (Kali Linux) debe tener instaladas las siguientes herramientas:
 
 1.	Hashing:
 
@@ -82,16 +82,17 @@ SHA512  : cf83e1357eefb8bdf1542850d66d8007...
    - exiftool (de Perl Image::ExifTool)
    - identify (parte del paquete ImageMagick)
 
-# Puedes integrarlas todas en una con distribuciones basadas en Debian/Ubuntu:
 
-	bash
+•     Puedes integrarlas todas en una con distribuciones basadas en Debian/Ubuntu:
 
-sudo apt update -y
-sudo apt install coreutils findutils exiftool imagemagick -y
+	Unix
 
-	en Fedora/RHEL:
+   - sudo apt update -y
+   - sudo apt install coreutils findutils exiftool imagemagick -y
 
-sudo dnf install coreutils findutils perl-Image-ExifTool ImageMagick
+	en Fedora/RHEL:
+
+   - sudo dnf install coreutils findutils perl-Image-ExifTool ImageMagick
 
 ________________________________________
 
@@ -109,17 +110,17 @@ ________________________________________
 
 # Opción local (entorno de desarrollo o pruebas)
 
-	git clone https://github.com/BitThor/MultiHashV8.git
+	git clone https://github.com/BitThor/MULTIHASH_V8.git
 
 	cd MultiHashV8
 
 	chmod +x MultiHashV8
 
-	./MultiHashV8 archivo.txt
 
 “ Para su ejecución desde cualquier ruta (recomendada para su uso diario)
 
 	sudo mv MultiHashV8 /usr/local/bin/
+
 
 🤝 Contribuciones
 
