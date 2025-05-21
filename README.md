@@ -12,12 +12,14 @@
 
       #   Ejemplo de salida
 
+
         ========= MultiHashV8 =========
         Archivo: prueba.txt
        MD5     : d41d8cd98f00b204e9800998ecf8427e
        SHA1    : da39a3ee5e6b4b0d3255bfef95601890afd80709
        SHA256  : e3b0c44298fc1c149afbf4c8996fb924...
        SHA512  : cf83e1357eefb8bdf1542850d66d8007...
+
 
      # Opciones a selección
 
@@ -86,12 +88,12 @@
 
 #	Unix
 
-   - sudo apt update -y
-   - sudo apt install coreutils findutils exiftool imagemagick -y
+             - sudo apt update -y
+             - sudo apt install coreutils findutils exiftool imagemagick -y
 
 #	en Fedora/RHEL:
 
-   - sudo dnf install coreutils findutils perl-Image-ExifTool ImageMagick
+             - sudo dnf install coreutils findutils perl-Image-ExifTool ImageMagick
 
 ________________________________________
 
@@ -134,4 +136,3 @@ III.	Pull request con tu propuesta de cambio.
 Desarrollado por [ Victor Cavada Hernández ].  
 Contacto: victorcavadah@gmail.com 
 Año: 2025
-
